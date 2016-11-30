@@ -7,7 +7,7 @@ module Parse
 
     # The default hostname and path for communication with the Parse API.
     HOST            = 'https://parseapi.back4app.com'
-    PATH            = ''
+    PATH            = '/'
 
     # HTTP Headers
     # ----------------------------------------
