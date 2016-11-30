@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.parse.com/1/batch
+    body:
+      encoding: UTF-8
+      string: '{"requests":[{"method":"POST","path":"/1/classes/BatchTestObject","body":{"foo":"1"}},{"method":"POST","path":"/1/classes/BatchTestObject","body":{"foo":"2"}},{"method":"POST","path":"/1/classes/BatchTestObject","body":{"foo":"3"}},{"method":"POST","path":"/1/classes/BatchTestObject","body":{"foo":"4"}},{"method":"POST","path":"/1/classes/BatchTestObject","body":{"foo":"5"}}]}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:19 GMT
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.027251'
+      Content-Length:
+      - '387'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"success":{"createdAt":"2016-03-09T17:28:19.574Z","objectId":"uEOMVpeMdt"}},{"success":{"createdAt":"2016-03-09T17:28:19.573Z","objectId":"R0ceWz2Yi1"}},{"success":{"createdAt":"2016-03-09T17:28:19.573Z","objectId":"siRRlkhe5B"}},{"success":{"createdAt":"2016-03-09T17:28:19.573Z","objectId":"yI8PRJstsh"}},{"success":{"createdAt":"2016-03-09T17:28:19.572Z","objectId":"Dnwo674CdU"}}]
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:19 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,319 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.parse.com/1/classes/BatchTestObject
+    body:
+      encoding: UTF-8
+      string: '{"foo":"1"}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:15 GMT
+      Location:
+      - https://api.parse.com/1/classes/BatchTestObject/pmK4fQDOYK
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.017953'
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"createdAt":"2016-03-09T17:28:15.782Z","objectId":"pmK4fQDOYK"}
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:15 GMT
+- request:
+    method: post
+    uri: https://api.parse.com/1/classes/BatchTestObject
+    body:
+      encoding: UTF-8
+      string: '{"foo":"2"}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:16 GMT
+      Location:
+      - https://api.parse.com/1/classes/BatchTestObject/wCjbhnVmup
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.016231'
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"createdAt":"2016-03-09T17:28:16.287Z","objectId":"wCjbhnVmup"}
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:16 GMT
+- request:
+    method: post
+    uri: https://api.parse.com/1/classes/BatchTestObject
+    body:
+      encoding: UTF-8
+      string: '{"foo":"3"}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:16 GMT
+      Location:
+      - https://api.parse.com/1/classes/BatchTestObject/MRtHw0D2Yb
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.017538'
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"createdAt":"2016-03-09T17:28:16.838Z","objectId":"MRtHw0D2Yb"}
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:16 GMT
+- request:
+    method: post
+    uri: https://api.parse.com/1/classes/BatchTestObject
+    body:
+      encoding: UTF-8
+      string: '{"foo":"4"}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:17 GMT
+      Location:
+      - https://api.parse.com/1/classes/BatchTestObject/W3r4HuLbPu
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.022505'
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"createdAt":"2016-03-09T17:28:17.448Z","objectId":"W3r4HuLbPu"}
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:17 GMT
+- request:
+    method: post
+    uri: https://api.parse.com/1/classes/BatchTestObject
+    body:
+      encoding: UTF-8
+      string: '{"foo":"5"}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:17 GMT
+      Location:
+      - https://api.parse.com/1/classes/BatchTestObject/CbQUVoliBs
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.024145'
+      Content-Length:
+      - '65'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"createdAt":"2016-03-09T17:28:17.985Z","objectId":"CbQUVoliBs"}
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:18 GMT
+- request:
+    method: post
+    uri: https://api.parse.com/1/batch
+    body:
+      encoding: UTF-8
+      string: '{"requests":[{"method":"PUT","path":"/1/classes/BatchTestObject/pmK4fQDOYK","body":{"foo":"updated"}},{"method":"PUT","path":"/1/classes/BatchTestObject/wCjbhnVmup","body":{"foo":"updated"}},{"method":"PUT","path":"/1/classes/BatchTestObject/MRtHw0D2Yb","body":{"foo":"updated"}},{"method":"PUT","path":"/1/classes/BatchTestObject/W3r4HuLbPu","body":{"foo":"updated"}},{"method":"PUT","path":"/1/classes/BatchTestObject/CbQUVoliBs","body":{"foo":"updated"}}]}'
+    headers:
+      User-Agent:
+      - Parse for Ruby, 1.0.0
+      Content-Type:
+      - application/json
+      X-Parse-Application-Id:
+      - "<X-Parse-Application-Id>"
+      X-Parse-Rest-Api-Key:
+      - "<X-Parse-REST-API-Key>"
+      X-Parserubyclient-Retries:
+      - '3'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Methods:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 09 Mar 2016 17:28:18 GMT
+      Server:
+      - nginx/1.6.0
+      X-Parse-Platform:
+      - G1
+      X-Runtime:
+      - '0.013753'
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"success":{"updatedAt":"2016-03-09T17:28:18.519Z"}},{"success":{"updatedAt":"2016-03-09T17:28:18.519Z"}},{"success":{"updatedAt":"2016-03-09T17:28:18.518Z"}},{"success":{"updatedAt":"2016-03-09T17:28:18.519Z"}},{"success":{"updatedAt":"2016-03-09T17:28:18.518Z"}}]
+
+'
+    http_version: 
+  recorded_at: Wed, 09 Mar 2016 17:28:18 GMT
+recorded_with: VCR 3.0.1
